@@ -1,0 +1,342 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(shamim.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #efefef !important;
+    padding: 150px; 
+    background-attachment: fixed;
+    height: 1000px;
+    width:  100%;
+    color: #fff;
+    text-align: center;
+}
+
+.header h1{
+    padding-top: 200px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p{
+    margin: 18px 0px;
+}
+
+.header img{
+    height: 140px;
+    width: 140px;
+    float: left;
+    margin-top: -130px;
+    margin-left: -170px;
+}
+
+.login-btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    margin-top: -120px;
+    margin-right: -170px;
+}
+
+.input-group{
+    width: 50%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    padding: 10px;
+    margin: auto;
+    
+
+}
+.form-control{
+    border-radius: 30px !important;
+    margin: 3px;
+    border: 0 !important;
+}
+.input-group-text{
+    background-image: linear-gradient(#00ff7e, #1f3d90);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+
+}
+
+
+/*---Features----*/
+
+.features{
+    padding: 100px 0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feature-img img{
+    width: 100%;
+    
+}
+.price{
+    height: 40px;
+    width: 40px;
+    background: orangered;
+    border-radius: 50%;
+    color: #fff;
+    padding: 8px;
+    font-weight: 600;
+    bottom: -1px;
+    position: absolute;
+}
+.feature-img{
+    position: relative;
+
+}
+.feature-details{
+    padding: 20px;
+    justify-content: center;
+}
+.feature-details h4{
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.feature-details .fa{
+    margin-right: 5px;
+    color: orangered;
+}
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 10px;
+}
+.cox{
+    height: 198px;
+}
+
+/*-----Gallery---*/
+
+.gallery{
+    padding: 100px 0;
+    background: #efefef;
+
+}
+
+.gallery-box img{
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.gallery-box img:hover{
+    
+    transition: .5s;
+}
+.gallery-box h4{
+    width: 200px;
+    text-align: center;
+    font-weight: 600;
+    top: 45%;
+    left: 5%;
+    position: absolute;
+    color: rgb(243, 42, 7);
+    letter-spacing: 5px;
+}
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/*-------Banner---------*/
+
+.banner{
+    background-image: url('Html_Images/travel3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    padding-top: 15%;
+}
+.banner-highlights{
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    padding: 70px 0;
+    text-align: center;
+}
+.booking-btn{
+    width: 120px;
+    padding: 8px 0;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/*------Feedback------*/
+
+.users-feedback{
+    padding: 100px 0;
+}
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+    padding-bottom: 50px;
+}
+.user-review p{
+    padding: 50px 10px 10px 10px;
+}
+.users-feedback img{
+    height: 60px;
+    width: 60px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    right: -140px;
+    position: relative;
+    top: -30px;
+}
+.user-review p::before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: blue;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+}
+
+.users-feedback h5{
+    color: blue;
+    font-weight: bolder;
+}
+.users-feedback small{
+    color: red;
+    font-weight: bolder;
+}
+
+/*------Footer------*/
+
+.footer{
+    padding: 40px 20px;
+    background-image: linear-gradient(#2d557d, #9610fb);
+    color: white;
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer-logo p{
+    justify-content: center;
+}
+
+
+/********Cities Only**********/
+
+.city-footer{
+    padding: 40px 20px;
+    background-image: linear-gradient(#2d557d, #9610fb);
+    color: white;
+    text-align: center;
+}
+
+.docu{
+    margin: 10px auto;
+    border: 1px solid green;
+}
+.docu input{
+    padding: 4px;
+    margin: 4px;
+}
+.sub{
+    text-align: center;
+    color: red;
+    margin-left: 200px;
+}
+
+.dis h4{
+    display: none;
+}
+
+/*******show record*****/
+
+.show-me{
+    background: green;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.show-me tr{
+    text-align: center;
+    color: #000;
+    background: lightblue;
+    border: 3px solid blue;
+    width: 100%;
+}
+.show-me caption{
+    font-weight: bolder;
+    color: red;
+}
+.show-me th{
+    color: green;
+}
+.dis a{
+    color: blue;
+}
+.records{
+    margin: 0 auto;
+}
+.dis button{
+    margin-left: 125px;
+}
+.dis a:hover{
+    text-decoration: none;
+}
+.hat a img{
+    height: 303px;
+    width: 100%;
+}
+.sree a img{
+    height: 216px;
+    width: 100%;
+}
+.bic a img{
+    height: 216px;
+    width: 100%;
+}
+
+/******Details*****/
+.jaf-details{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7));
+    color: white;
+    padding: 40px 20px;
+}
+.jaf-details span{
+    color: red;
+}
+.feature-details h4{
+    color: blue;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.footer a:hover{
+    color: blueviolet;
+}
+
+.footer .abt{
+    color: #000;
+}
+
+/*******Comments******/

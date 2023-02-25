@@ -1,0 +1,32 @@
+/***** Table ****/
+
+table div input{
+    width: 200%;
+}
+table .form-controler{
+    padding: 12px;
+}
+
+
+/*****Contact****/
+#contact{
+    background: #efef;
+}
+#contact .contact-info .address{
+    
+    padding: 13px;
+    border: 1px solid #efefef;
+    background: #fff;
+    margin: 10px;
+    color: #b4b4b4;
+    font-weight: 700;
+}
+#contact .fa{
+    color: blue;
+    margin-right: 10px;
+    
+}
+.contact-us button{
+    padding: 6px;
+    margin-left: 40%;
+}

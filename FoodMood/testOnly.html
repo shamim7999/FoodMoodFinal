@@ -1,0 +1,20 @@
+<!Doctype html>
+<html>
+<body>
+    <input type="date" id="price">Arrive
+    <br><br>
+    <input type="date" id="discount"> Leave
+    <br><br>
+    
+    <input readonly id="total">
+    <button onclick="getPrice()"> Get total </button> <br><br>
+    <script>
+        getPrice = function() {
+            var str1 = document.getElementById("price").value;
+            var str2 = document.getElementById("discount").value;
+            var diff =  Math.floor(( Date.parse(str2) - Date.parse(str1) ) / 86400000)+1;
+            document.getElementById("total").value = diff.toFixed(2);
+        }
+    </script>
+</body>
+</html>
